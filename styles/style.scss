@@ -1,0 +1,48 @@
+$White: hsl(0, 0%, 100%);
+$Light: hsl(212, 45%, 89%);
+$Grayish: hsl(220, 15%, 55%);
+$Dark: hsl(218, 44%, 22%);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: $Light;
+}
+div {
+	position: absolute;
+	top: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.component {
+	margin: auto;
+	margin-top: 10vh;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: $White;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	max-width: 17rem;
+	text-align: center;
+	img {
+		border-radius: 1.5rem;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	h3 {
+		margin-bottom: 1rem;
+		font-weight: 700;
+		color: $Dark;
+	}
+	p {
+		color: $Grayish;
+		font-size: 15px;
+		font-weight: 400;
+		margin-bottom: 2rem;
+	}
+}
